@@ -12,7 +12,7 @@ import holoviews as hv
 from holoviews import opts, dim
 hv.extension('bokeh')
 
-df_TripAdvisor_total = pd.read_csv("../data/df_TripAdvisor_total_boroughs.csv")
+df_TripAdvisor_total = pd.read_csv("data/df_TripAdvisor_total_boroughs.csv")
 
 
 # Manipulate the data
